@@ -1,0 +1,14 @@
+{
+  "manifest_version" : 2,
+  "name": "Yuhao",
+  "version": "0.1",
+  "browser_action":{
+    "default_popup":"popup.html"
+  },
+  "content_scripts":[
+    {
+      "matches":["<all_urls>"],
+      "js":["jquery.js","myscript.js"]
+    }
+  ]
+}
